@@ -1,12 +1,21 @@
-country,region,measure,date,source
-Germany,,Recommendation Cancel > 1000,2020-03-08,
-Germany,,Ban Events > 1000,2020-03-10,
-Germany,,,,
-Germany,,Schools closed,2020-03-13,
-Germany,,Football league cancelled,2020-03-16,https://www.bundesliga.com/en/bundesliga/news/coronavirus-what-games-are-cancelled-postponed-behind-closed-doors-overview-10410
-Germany,,Limit public activities,2020-03-14,
-Germany,Bavaria,Travel Restrictions,2020-03-15,
-Germany,Bavaria,State of emergency,2020-03-16,
-Germany,,Travel Restrictions,2020-03-18,
-Germany,Bavaria,Curfew,2020-03-20,
-Germany,,Gatherings > 2,2020-03-22,
+country,region,measure,date,source,category
+Germany,,Recommendation Cancel > 1000,2020-03-08,,recommendation
+Germany,,Ban Events > 1000,2020-03-10,,events
+Germany,,Schools closed,2020-03-13,,public life
+Germany,,Football league cancelled,2020-03-16,https://www.bundesliga.com/en/bundesliga/news/coronavirus-what-games-are-cancelled-postponed-behind-closed-doors-overview-10410,events
+Germany,,Limit public activities,2020-03-14,,public life
+Germany,Bavaria,Travel Restrictions,2020-03-15,,travel
+Germany,Bavaria,State of emergency,2020-03-16,,public life
+Germany,,Travel Restrictions,2020-03-18,,travel
+Germany,Bavaria,Curfew,2020-03-20,,public life
+Germany,,Gatherings > 2,2020-03-22,,public life
+Italy,,Travel Restrictions China,2020-01-31,,travel
+Italy,Northern Italy,Quarantine,2020-02-22,,public life
+Italy,Northern Italy,Schools closed,2020-02-22,,public life
+Italy,Northern Italy,Football league cancelled,2020-02-22,,events
+Italy,,Quarantine,2020-03-01,,public life
+Italy,,Schools closed,2020-03-04,,public life
+Italy,Northern Italy,Lockdown,2020-03-08,,public life
+Italy,,All sporting events cancelled,2020-03-09,,events
+Italy,,Lockdown leisure activity,2020-03-20,,public life
+Italy,,Lockdown business,2020-03-21,,public life
