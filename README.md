@@ -1,5 +1,5 @@
 # covid-19-measures-datalake
-Repository containing information when and where which measurment was implemented.
+Repository containing information when and where which measurement was implemented.
 
 Copied from https://github.com/CSSEGISandData/COVID-19
 
