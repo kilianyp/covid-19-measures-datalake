@@ -5,13 +5,22 @@ The purpose is to be able to take these events into account when predicting the 
 # Dataset description
 Currently, I am planning to have these columns. Let me know if you think something should be added.
 
-
 - country: Country
 - region: A more granular part of the country
 - measure: A text description of the implemented measurement
 - date: Date when the measurement was implemented
-- source: Source of this information
 - category: A more broader categorization of the measurement
+    - events: sporting, music events
+    - public life: school, university, parks
+    - travel: borders, public transport
+    - shop: business
+- severity: On a scale from 1-5
+    - 1: information: the government issues information, but does not enforce
+    - 2: warning: the government warns, but does not enforce
+    - 3: restrict > 1000: Gatherings of more than a 1000 people are cancelled
+    - 4: restrict > 100: Gatherings of more than 100 people are cancelled
+    - 5: lockdown: Complete lockdown, max 2 people and families
+- source: Source of this information
 
 
 The information is manually extracted mostlty from [wikipedia](https://en.wikipedia.org/wiki/Category:2019%E2%80%9320_coronavirus_pandemic_by_country_and_territory).
